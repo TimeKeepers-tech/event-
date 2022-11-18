@@ -3309,6 +3309,7 @@ a {
   position: relative;
   min-height: 60px;
   margin-bottom: 18px;
+  top: 55px;
 }
 .cid-s48OLK6784 nav.navbar {
   position: fixed;
@@ -3338,7 +3339,7 @@ a {
 }
 .cid-s48OLK6784 .dropdown-item:hover,
 .cid-s48OLK6784 .dropdown-item:focus {
-  background: #6592e6 !important;
+  background: #fed53a !important;
   color: white !important;
 }
 .cid-s48OLK6784 .nav-dropdown .link {
@@ -3407,6 +3408,7 @@ a {
 }
 .cid-s48OLK6784 .navbar:not(.navbar-short) {
   border-bottom: 1px solid #e6e6e6;
+  position: static;
 }
 .cid-s48OLK6784 .navbar.opened {
   transition: all .3s;
