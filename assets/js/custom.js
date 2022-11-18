@@ -19,13 +19,13 @@
 
   // back to top - start
   // --------------------------------------------------
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 200) {
-      $('.backtotop:hidden').stop(true, true).fadeIn();
-    } else {
-      $('.backtotop').stop(true, true).fadeOut();
-    }
-  });
+  // $(window).scroll(function() {
+  //   if ($(this).scrollTop() > 200) {
+  //     $('.backtotop:hidden').stop(true, true).fadeIn();
+  //   } else {
+  //     $('.backtotop').stop(true, true).fadeOut();
+  //   }
+  // });
   $(function() {
     $(".scroll").click(function() {
       $("html,body").animate({
@@ -43,9 +43,9 @@
   
   // preloader - start
   // --------------------------------------------------
-  $(window).on('load', function(){
-    $('#preloader').fadeOut('slow',function(){$(this).remove();});
-  });
+  // $(window).on('load', function(){
+  //   $('#preloader').fadeOut('slow',function(){$(this).remove();});
+  // });
   // preloader - end
   // --------------------------------------------------
 
